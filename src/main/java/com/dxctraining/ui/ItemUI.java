@@ -19,9 +19,9 @@ private IItemService itemService;
     {
      try
      {
-      Item item1=new Item(1,"pencil");
-         Item item2=new Item(2,"book");
-         Item item3=new Item(3,"soda");
+      Item item1=new Item(1,"ac");
+         Item item2=new Item(2,"tv");
+         Item item3=new Item(3,"watch");
    int id1=item1.getId();
    Item fetcheditem=itemService.findItem(id1);
 System.out.println("The item is"+fetcheditem.getId()+"  "+"The name is"+fetcheditem.getName());
